@@ -8,6 +8,6 @@ node ('website') {
     }
 
     stage ('Deploy') {
-        sh "mkdocs gh-deploy"
+        sh "rsync -a site/ /var/www/gpuci/html/"
     }
 }
