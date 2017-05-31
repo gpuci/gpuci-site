@@ -4,11 +4,10 @@ node ('website') {
     }
 
     stage ('Build') {
-        sh "ls -l"
-        sh "find ."
+        sh "mkdocs build"
     }
 
     stage ('Deploy') {
-        sh "echo deploy"
+        sh "mkdocs gh-deploy"
     }
-} 
+}
