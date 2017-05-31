@@ -8,6 +8,6 @@ node ('website') {
     }
 
     stage ('Deploy') {
-        sh "rsync -a site/ /var/www/gpuci/html/"
+        sh "rsync -aqr site/ /var/www/gpuci/html/gpuci --delete"
     }
 }
