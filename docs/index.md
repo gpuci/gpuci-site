@@ -1,15 +1,19 @@
-# Welcome to GpuCi
+# Welcome to GpuCI
 
 A small project dedicated to testing the linux opensource gpu driver stack.
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
 ## The CI server
 
-You are most likely looking for our [CI server](jenkins/).
+You are most likely looking for the [CI server](jenkins/).
 
-## Project layout
+## Documentation
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### Scope
+
+This is just a small personal project intended to validate my own driver
+changes.
+
+### Architecture
+
+This will take a while to write.
