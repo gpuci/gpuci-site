@@ -1,13 +1,11 @@
-# Welcome to MkDocs
+# Welcome to GpuCi
 
+A small project dedicated to testing the linux opensource gpu driver stack.
 For full documentation visit [mkdocs.org](http://mkdocs.org).
 
-## Commands
+## The CI server
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+You are most likely looking for our [CI server](jenkins/).
 
 ## Project layout
 
