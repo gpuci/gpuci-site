@@ -21,11 +21,8 @@ edges will probably remain pretty rough for an extended period of time.
 Gpuci is separated into four individual components:
 
   1. Event aggregator
-
   2. Job Orchestrator
-
   3. Results aggregator
-
   4. Results display
 
 Each component should be (mostly) independent of each other. The goal is to be
